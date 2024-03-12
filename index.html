@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой персональный сайт</title>
+  <style>
+    /* Стилизация элементов сайта */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #1abc9c;
+      color: white;
+      padding: 40px;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    .header p {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #333;
+      color: white;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+    }
+
+    .nav a:hover {
+      background-color: #555;
+    }
+
+    .section {
+      margin: 20px 0;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .section p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .section ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .section li {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    .section li i {
+      font-size: 24px;
+      color: #1abc9c;
+      margin-right: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Шапка сайта с именем и кратким описанием -->
+    <div class="header">
+      <h1>Иван Иванов</h1>
+      <p>Веб-разработчик и дизайнер</p>
+    </div>
+    <!-- Навигационное меню с ссылками на разделы сайта -->
+    <div class="nav">
+      <a href="#bio">Биография</a>
+      <a href="#resume">Резюме</a>
+      <a href="#contact">Контакты</a>
+    </div>
+    <!-- Раздел с биографией -->
+    <div class="section" id="bio">
+      <h2>Биография</h2>
+      <p>Привет, меня зовут Иван Иванов и я веб-разработчик и дизайнер. Я родился и вырос в Киеве, Украина. Я учился в Киевском национальном университете имени Тараса Шевченко на факультете компьютерных наук. Я интересуюсь веб-технологиями, графическим дизайном и искусственным интеллектом. Я люблю создавать красивые и функциональные сайты для разных целей и аудиторий.</p>
+    </div>
+    <!-- Раздел с резюме -->
+    <div class="section" id="resume">
+      <h2>Резюме</h2>
+      <p>Вот некоторые из моих навыков и опыта работы:</p>
+      <ul>
+        <li><i class="fas fa-code"></i> Владею HTML, CSS, JavaScript, Bootstrap, jQuery, React, Node.js, MongoDB и другими веб-технологиями</li>
+        <li><i class="fas fa-paint-brush"></i> Имею опыт работы с Photoshop, Illustrator, Figma и другими графическими редакторами</li>
+        <li><i class="fas fa-graduation-cap"></i> Имею сертификаты от freeCodeCamp, Coursera, Udemy и других онлайн-платформ по веб-разработке и дизайну</li>
+        <li><i class="fas fa-briefcase"></i> Работал веб-разработчиком и дизайнером в нескольких компаниях и фрилансером на разных проектах</li>
+        <li><i class="fas fa-trophy"></i> Участвовал и побеждал в разных хакатонах и конкурсах по веб-разработке и дизайну</li>
+      </ul>
+    </div>
+    <!-- Раздел с контактными данными -->
+    <div class="section" id="contact">
+      <h2>Контакты</h2>
+      <p>Если вы хотите связаться со мной, вы можете использовать один из следующих способов:</p>
+      <ul>
+        <li><i class="fas fa-envelope"></i> Электронная почта: ivan.ivanov@gmail.com</li>
+        <li><i class="fas fa-phone"></i> Телефон: +380 123 456 789</li>
+        <li><i class="fab fa-linkedin"></i> LinkedIn: [ivan-ivanov](https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/)</li>
+        <li><i class="fab fa-github"></i> GitHub: [ivan-ivanov](https://www.w3schools.com/howto/howto_make_a_website.asp)</li>
+      </ul>
+    </div>
+    <!-- Подвал сайта с копирайтом -->
+    <div class="footer">
+      <p>© 2024 Иван Иванов. Все права защищены.</p>
+    </div>
+  </div>
+  <!-- Подключение Font Awesome для иконок -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
